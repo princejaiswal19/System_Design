@@ -9,13 +9,6 @@ void solve() {
    for(int i=0; i<n; i++){
     cin>>v[i];
    }
-   int i=0;
-   int j=n-1;
-   bool t=true;
-   string s="";
-   while(i<j){
-    if(t){
-     if(v[i]>v[j]){
         s=s+'L';
      }
      else{
