@@ -42,7 +42,7 @@ public:
                 int adjNode = it.first;
                 int wt = it.second;
                 int node = i;
-                if (node < adjNode)  // to avoid duplicate edges
+                if (node < adjNode)  
                     edges.push_back({wt, {node, adjNode}});
             }
         }
@@ -68,7 +68,7 @@ public:
 int main() {
     int V = 5;
     vector<vector<int>> edges = {
-        {0,1,2},
+        {0,1,3},
         {0,2,1},
         {1,2,1},
         {2,3,2},
